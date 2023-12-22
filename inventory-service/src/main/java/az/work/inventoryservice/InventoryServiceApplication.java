@@ -26,10 +26,8 @@ public class InventoryServiceApplication {
             Inventory inventory1 = new Inventory();
             inventory1.setSkuCode("Iphone 14 Pro Max");
             inventory1.setQuantity(1);
-
             inventoryRepo.save(inventory);
             inventoryRepo.save(inventory1);
-
         };
     }
 }
